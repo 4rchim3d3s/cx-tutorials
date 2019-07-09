@@ -51,7 +51,7 @@ Create new file **’hello-world.cx’** in folder **‘examples’**
 
 <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/10.jpg" width="400">
 
-Type in the words: \
+Type in the words:
 
 *package main\
 \
