@@ -1,11 +1,12 @@
-#CX on Windows 10
+## CX on Windows 10
 
 ## Installation
 
-Download latest version of cx.exe from https://github.com/skycoin/cx/releases
+Download the latest version of cx.exe from https://github.com/skycoin/cx/releases
 
-<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/1.jpg" width="400">\
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/1.jpg"           width="400">
+<\p>
 unzip in the destination you want to have your CX-files\
 
 *For example, D:\Programme\CX*
@@ -36,7 +37,6 @@ Press **New** and type in the Path you put in the cx.exe\
 Now Press **WIN + R**, type in **cmd.exe** and press **Enter** to open terminal\
 
 Then type in **cx -v**, press **Enter** and you should get back the version
-
 
 ## Hello World!
 
