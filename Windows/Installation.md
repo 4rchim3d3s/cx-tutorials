@@ -30,7 +30,8 @@ Select **Path** and **Edit**
 
 <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/6.jpg" width="400">
 
-Press **New** and type in the Path you put in the cx.exe\ 
+Press **New** and type in the Path you put in the cx.exe 
+
 *For example, D:\Programme\CX*
 
 <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/7.jpg" width="400">
