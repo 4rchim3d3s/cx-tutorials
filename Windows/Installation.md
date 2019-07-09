@@ -17,8 +17,8 @@ unzip in the destination you want to have your CX-files
 
 To have access to the cx.exe in the terminal set Global Variable
 
-Either search in Windows-Search-Bar or press **WIN + R** and type in **C:\Windows\System32\systempropertiesadvanced.exe**
-and press **Enter**
+Either search in Windows-Search-Bar or press **WIN + R** and type in\
+**C:\Windows\System32\systempropertiesadvanced.exe** and press **Enter**
 
 <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/4.jpg" width="400">
 
