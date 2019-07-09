@@ -5,13 +5,17 @@
 Download the latest version of cx.exe from https://github.com/skycoin/cx/releases
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/1.jpg"           width="400">
-<\p>
+  
+  <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/1.jpg"         width="400">
+  
 unzip in the destination you want to have your CX-files\
 
 *For example, D:\Programme\CX*
+<p align="center">
+  
+  <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/2.jpg"         width="200">
 
-![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/2.jpg)
+</p>
 
 <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/3.jpg" width="400">\
 To have access to the cx.exe in the terminal set Global Variable\
