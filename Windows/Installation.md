@@ -12,27 +12,26 @@ unzip in the destination you want to have your CX-files\
 
 ![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/2.jpg)
 
-![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/3.jpg)
-
+<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/3.jpg" width="300">\
 To have access to the cx.exe in the terminal set Global Variable\
 
 Either search in Windows-Search-Bar or press **WIN + R** and type in **C:\Windows\System32\systempropertiesadvanced.exe**
 and press **Enter**
 
-![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/4.jpg)
+<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/4.jpg" width="300">\
 
 Go to **Environment Variables**
 
-![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/5.jpg)
+<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/5.jpg" width="300">\
 
 Select **Path** and **Edit**
 
-![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/6.jpg)
+<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/6.jpg" width="300">\
 
 Press **New** and type in the Path you put in the cx.exe\ 
 *For example, D:\Programme\CX*
 
-![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/7.jpg)
+<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/7.jpg" width="300">\
 
 Now Press **WIN + R**, type in **cmd.exe** and press **Enter** to open terminal\
 
@@ -41,30 +40,31 @@ Then type in **cx -v**, press **Enter** and you should get back the version
 
 ## Hello World!
 
-![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/8.jpg)
+<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/8.jpg" width="300">\
 
 Make new folder **‘examples’** 
 
-![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/9.jpg)
+<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/9.jpg" width="300">\
 
 Create new file **’hello-world.cx’** in folder **‘examples’**
 
-![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/10.jpg)
+<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/10.jpg" width="300">\
 
 Type in the words: \
-**package main\
+
+*package main\
 \
 func main() {\
 str.print("Hello World!")\
-}**\
+}*
 
-Save (**Ctrl + S**) and close\
+Save (**Ctrl + S**) and close
 
-![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/11.jpg)
+<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/11.jpg" width="300">\
 
 
 Now open terminal again, move to the direction where the **hello-world.cx** is or
 
-![Alt text](https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/12.jpg)
+<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20windows%20installation/12.jpg" width="300">\
 
 type in cx then press Space and drag & drop the file you want to run and press Enter
