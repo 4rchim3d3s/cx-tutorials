@@ -4,7 +4,7 @@
 
 To understand packages we will use three packages and call different functions from each, pointing to another package.
 
-First of all make three packages or just download them here and put them in your workdirectory. (insert link to files)
+First of all make three packages or just download them [here](https://github.com) and put them in your workdirectory.
 
 *For example: D:\...\CX\examples*
 
@@ -123,3 +123,10 @@ And then declare all variables of this special struct.\
 See that we save the variable **variableOfStruct1ForPackage2** of **package1** into the Struct-Variable called **variableOfStruct2_2** of *Struct2_1* out of package2.
 
 After that you see how you can access the values and print them out.
+
+## Bugs
+
+By now i only got a bug with defining an Array of a Structure of another package within a Structure. 
+See https://github.com/skycoin/cx/issues/385 if it got fixed.
+
+A workaround is to just redefine the same structure within the package, see also the link above.
