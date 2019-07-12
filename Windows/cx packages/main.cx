@@ -1,0 +1,71 @@
+/***************************************
+ * Author:
+ * Date:
+ * Version:
+***************************************/
+package main
+
+/***************************************
+ * Import CX modules.
+***************************************/
+
+//nothing to import
+
+/***************************************
+ * Import custom modules.
+***************************************/
+
+import "package1"
+import "package2"
+
+/***************************************
+ * Declaration struct
+***************************************/
+
+//no struct to declare
+
+/***************************************
+ * Setting Variables
+***************************************/
+
+var MAIN_VARIABLE_STRING_1 str = "Variable of main #1"
+var MAIN_VARIABLE_STRING_2 str = "Variable of main #2"
+
+var MAIN_VARIABLE_STRUCT1 package1.Struct1
+
+/***************************************
+ * Functions
+***************************************/
+
+func main(){
+//package1 handling	
+	package1.fillStruct1()
+
+	//variant 1
+	var bufferstring1 str
+	bufferstring1 = package1.getStruct1Name(package1.variableOfStruct1)
+	str.print(bufferstring1)
+	//variant 2
+	str.print(package1.getStruct1Name(package1.variableOfStruct1))
+	//variant 3
+	str.print(package1.variableOfStruct1.name)
+
+//package2 handling
+	package2.fillStruct2()
+	//variant 1
+	var bufferstring2 str
+	bufferstring2 = package2.getStruct2Name(package2.variableOfStruct2)
+	str.print(bufferstring2)
+	//variant 2
+	str.print(package2.getStruct2Name(package2.variableOfStruct2))
+	//variant 3
+	str.print(package2.variableOfStruct2.name)
+
+//package2 special struct with package1 struct handling
+	package2.fillStruct2_1()
+	str.print(package2.variableOfStruct2_2.name)
+	i32.print(package2.variableOfStruct2_2.id)
+	
+	//prints the name of structure1(struct of package1) which is within variableOfStruct2_2(struct of package2)
+	str.print(package2.variableOfStruct2_2.structure1.name)
+}

@@ -1,0 +1,67 @@
+/***************************************
+ * Author:
+ * Date:
+ * Version:
+***************************************/
+package package2
+
+/***************************************
+ * Import CX modules.
+***************************************/
+
+//nothing to import
+
+/***************************************
+ * Import custom modules.
+***************************************/
+
+import "main"
+import "package1"
+
+/***************************************
+ * Declaration struct
+***************************************/
+
+type Struct2 struct {
+	name str
+	id i32
+}
+
+type Struct2_1 struct {
+	name str
+	id i32
+	structure1 package1.Struct1
+}
+
+/***************************************
+ * Setting Variables
+***************************************/
+
+var variableOfId i32 = 20
+
+var variableOfStruct2 Struct2
+var variableOfStruct2_2 Struct2_1
+
+/***************************************
+ * Functions
+***************************************/
+func fillStruct2()(){
+	variableOfStruct2.name = main.MAIN_VARIABLE_STRING_2
+	variableOfStruct2.id = variableOfId
+}
+
+func getStruct2Name(structure Struct2)(name str){
+	name = structure.name
+}
+
+func getStruct2Id(structure Struct2)(id i32){
+	id = structure.id
+}
+
+func fillStruct2_1()(){
+	package1.fillStructForPackage2()
+
+	variableOfStruct2_2.name = "Struct2_2 NAME"
+	variableOfStruct2_2.id = 21
+	variableOfStruct2_2.structure1 = package1.variableOfStruct1ForPackage2
+}
