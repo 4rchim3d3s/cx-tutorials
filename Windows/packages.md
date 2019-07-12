@@ -4,7 +4,7 @@
 
 To understand packages we will use three packages and call different functions from each, pointing to another package.
 
-First of all make three packages or just download them [here](https://github.com) and put them in your workdirectory.
+First of all make three packages or just download them [here](https://github.com/4rchim3d3s/cx-tutorials/tree/master/Windows/cx%20packages) and put them in your workdirectory.
 
 *For example: D:\...\CX\examples*
 
