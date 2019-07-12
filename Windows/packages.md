@@ -34,15 +34,15 @@ The question now is, why?
 
 In **line 6** we declare how the package itself is named -> *main*\
 In **line 18** we import the package with the name *package1*\
-In **line 19** we import the package with the name *package2*\
+In **line 19** we import the package with the name *package2*
 
 In **line 31** we define a *string* variable called 'MAIN_VARIABLE_STRING_1' and declare its Value is 'Variable of main #1'\
-In **line 32** we define a *string* variable called 'MAIN_VARIABLE_STRING_2' and declare its Value is 'Variable of main #2'\
+In **line 32** we define a *string* variable called 'MAIN_VARIABLE_STRING_2' and declare its Value is 'Variable of main #2'
 
 In **line 34** we define a *Struct1* variable called 'MAIN_VARIABLE_STRUCT1' from package1\
 ! This Structure is not declared in the main-package but in package1.\
 To use a struct from another package you have to **import** this package (which we did in **line18**)\
-Also for sure it has to be defined in the other package:
+Also for sure it has to be declared in the other package:
 
 <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20packages/6.jpg" width="400">
 
@@ -79,10 +79,11 @@ Let's jump back to our main, cause that is what happens now.
 
 <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20packages/8.jpg" width="900">
 
-Now we have got three diferent approaches to print out what we just have stored
+Now we have got three different approaches to print out what we just have stored.
 
 #### **variant1**: 
-We define a string variable and declare its value by using a function of package1 called *getStruct1Name*. You see that we    also pass a variable to the function because we declared it like that in package1. 
+We define a string variable and declare its value by using a function of package1 called *getStruct1Name*.\
+You see that we also pass a variable to the function because we declared it like that in package1. 
 
 <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20packages/9.jpg" width="900">
 
@@ -108,7 +109,7 @@ To try to understand you also have to write code yourself so try to change these
 <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20packages/11.jpg" width="400">
 
 Here you see that we have defined another structure in package2. Now we added another variable with the name **structure1**.\
-See that it is another **Struct1** declared in **package1**.
+See that it is another **Struct1** declared in **package1**.\
 Don't forget, to use this we also have to **import "package1"**.
 
 So first we call **fillStruct2_1()** of package2:
@@ -119,14 +120,14 @@ Here we first call **fillStructForPackage2()** of package1:
 
 <img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20packages/13.jpg" width="400">
 
-And then declare all variables of this special struct.\
+And then define all variables of this special struct.\
 See that we save the variable **variableOfStruct1ForPackage2** of **package1** into the Struct-Variable called **variableOfStruct2_2** of *Struct2_1* out of package2.
 
 After that you see how you can access the values and print them out.
 
 ## Bugs
 
-By now i only got a bug with defining an Array of a Structure of another package within a Structure. 
+By now i only got a bug with defining an Array of a Structure of another package within a Structure.\ 
 See https://github.com/skycoin/cx/issues/385 if it got fixed.
 
 A workaround is to just redefine the same structure within the package, see also the link above.
