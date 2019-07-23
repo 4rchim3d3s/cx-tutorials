@@ -19,7 +19,10 @@ With this example this would look like this:
 if you had another package called 'package3.cx' you would just add it at the end.\
 *cx main.cx package1.cx package2.cx package3.cx*
 
-**!NOTE: You also can use the command 'cx .' to run all files at once!**\
+**!NOTE: You also can use the command 'cx .' to run all files at once!**
+
+<img src="https://raw.githubusercontent.com/4rchim3d3s/cx-tutorials/master/Windows/cx%20packages/2_1.jpg" width="400">
+
 **Just make sure you don't have any other files not linked to your project in the folder or any subfolders**
 
 The output of our example should then look like this:
